@@ -29,7 +29,9 @@ const Shop = () => {
         // console.log(addedProduct);
        }
     //step-5:set the cart
+   
     setCart(savedCart);
+   
     },[products])
     const handleAddToCart=(product)=>{
          const newCart=[...cart,product];
